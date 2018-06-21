@@ -51,6 +51,7 @@ public class GUI extends JFrame{
 		
 		
 		textField = new JTextField("Oi Fefêzinha :) :*", 10);
+		textField.setHorizontalAlignment(JTextField.RIGHT);
 		c.fill = GridBagConstraints.HORIZONTAL;
 		c.gridx = 0;
 		c.gridy = 0;
