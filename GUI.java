@@ -65,6 +65,7 @@ public class GUI extends JFrame{
 		c.fill = GridBagConstraints.HORIZONTAL;
 		c.gridx = 0;
 		c.gridy = 6;
+		
 		c.gridwidth = 2;
 		c.gridheight = 1;
 		panel.add(button0 , c);
@@ -176,8 +177,7 @@ public class GUI extends JFrame{
 		panel.add(buttonDivide , c);
 		
 		buttonEquals = new JButton("=");
-		c.fill = GridBagConstraints.HORIZONTAL;
-		c.fill = GridBagConstraints.VERTICAL;
+		c.fill = GridBagConstraints.BOTH;
 		c.gridx = 4;
 		c.gridy = 5;
 		c.gridwidth = 1;
